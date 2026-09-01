@@ -1,4 +1,4 @@
-# API de Atividades da Mergington High School
+# API de Atividades da Escola do Professor Raimundo
 
 Uma aplicação FastAPI super simples que permite que estudantes visualizem e se inscrevam em atividades extracurriculares.
 
@@ -6,19 +6,20 @@ Uma aplicação FastAPI super simples que permite que estudantes visualizem e se
 
 - Visualizar todas as atividades extracurriculares disponíveis
 - Inscrever-se em atividades
+- Cancelar inscrições em atividades
 
 ## Primeiros Passos
 
 1. Instale as dependências:
 
    ```
-   pip install fastapi uvicorn
+   python3 -m pip install -r requirements.txt
    ```
 
 2. Execute a aplicação:
 
    ```
-   python app.py
+   python3 -m uvicorn src.app:app --reload
    ```
 
 3. Abra seu navegador e acesse:
@@ -27,10 +28,19 @@ Uma aplicação FastAPI super simples que permite que estudantes visualizem e se
 
 ## Endpoints da API
 
-| Método | Endpoint                                                          | Descrição                                                                   |
-| ------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| GET    | `/activities`                                                     | Obtém todas as atividades com seus detalhes e contagem atual de participantes |
-| POST   | `/activities/{activity_name}/signup?email=student@mergington.edu` | Inscreve-se em uma atividade                                                |
+| Método | Endpoint                                                              | Descrição                                                                      |
+| ------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| GET    | `/activities`                                                         | Obtém todas as atividades com seus detalhes e participantes                    |
+| POST   | `/activities/{activity_name}/signup?email=student@mergington.edu`     | Inscreve-se em uma atividade                                                   |
+| DELETE | `/activities/{activity_name}/unregister?email=student@mergington.edu` | Cancela a inscrição de um estudante em uma atividade                           |
+
+## Testes
+
+Execute os testes de backend com pytest a partir da raiz do projeto:
+
+```
+python3 -m pytest
+```
 
 ## Modelo de Dados
 
