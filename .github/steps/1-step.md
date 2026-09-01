@@ -2,9 +2,9 @@
 
 Bem-vindo ao seu exercício **"Primeiros Passos com GitHub Copilot"**! :robot:
 
-Neste exercício, você usará diferentes recursos do GitHub Copilot para trabalhar em um site que permite que estudantes da Mergington High School se inscrevam em atividades extracurriculares. 🎻 ⚽️ ♟️
+Neste exercício, você usará diferentes recursos do GitHub Copilot para trabalhar em um site que permite que estudantes da Escola do Professor Raimundo se inscrevam em atividades extracurriculares. 🎻 ⚽️ ♟️
 
-<img width="600" alt="screenshot of Mergington High School WebApp" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-rafael/blob/main/.github/images/mergington-high-school-webapp.png?raw=true" />
+<img width="600" alt="screenshot of Escola do Professor Raimundo WebApp" src="https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-rafael/blob/main/.github/images/mergington-high-school-webapp.png?raw=true" />
 
 ### 📖 Teoria: Conhecendo o GitHub Copilot
 

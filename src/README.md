@@ -1,4 +1,4 @@
-# API de Atividades da Mergington High School
+# API de Atividades da Escola do Professor Raimundo
 
 Uma aplicação FastAPI super simples que permite que estudantes visualizem e se inscrevam em atividades extracurriculares.
 
